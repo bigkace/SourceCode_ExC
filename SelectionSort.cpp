@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h>             //Sort Ascending
 
 const int MAX = 100;
 
@@ -16,7 +16,7 @@ void Swap(int &a, int &b){
 }
 
 void SelectionSort(int arr[], int n){            
-    for (int i = 0; i < n; i++){                // Sort 
+    for (int i = 0; i < n; i++){                // Sort Descending
         int indexMin = i;                       //indexMax = i
         for (int j = i+1; j < n; j++){            
             if (arr[j] < arr[indexMin]){        // if (arr[j] > arr[indexMax])
