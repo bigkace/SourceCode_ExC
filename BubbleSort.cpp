@@ -9,7 +9,7 @@ void ArrayInput(int arr[], int n){
     }
 }
 
-void Swap(int &a, int &b){
+void Swap(int &a, int &b){   /*Tham chiếu*/
     int temp = a;
     a = b;
     b = temp;
